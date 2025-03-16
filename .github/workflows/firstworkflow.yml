@@ -1,6 +1,7 @@
 name: first workflow
 
 on: 
+ issues:
  push:
  workflow_dispatch:
 
