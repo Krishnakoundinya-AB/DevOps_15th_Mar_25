@@ -8,6 +8,7 @@ jobs:
   steps:
    - run: echo 'Hello for ubuntu'
  job2:
+  needs: job1
   runs-on: windows-latest
   steps:
    - run: echo 'Hello for Windows'
